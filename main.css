@@ -1,0 +1,87 @@
+.container {
+    height: 1000px;
+    width: 1000px;
+    margin: 25px;
+    background-color: rgb(179, 170, 170);   
+}
+.box_t {
+    height: 300px;
+    width: 500px;
+    margin-top: 20px;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    position: relative;
+    background-color: rgb(226, 238, 238);
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 300;
+    box-shadow: 2px 2px 4px lightblue;
+}
+img {
+    position: absolute;
+    left: 114px;
+    bottom: 25px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 1px 1px 3px white;
+}
+figcaption {
+    font-size: 16px;
+    position: absolute;
+    bottom: 5px;
+    left: 183px;
+}
+
+.box_c {
+    height: 500px;
+    width: 700px;
+    background-color: rgb(91, 163, 91);
+    margin: 20px;
+    padding: 2px;
+    box-shadow: 3px 3px 5px lightgrey;
+    position: relative;
+}
+.content {
+    padding: 5px;
+    margin: 5px;
+    width: 650px;
+    height: 410px;
+    background-color: lightgreen;
+    overflow-y: scroll;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    box-shadow: 5px 5px 10px lightslategrey;
+}
+.container {
+    position: relative;
+}
+.box_t {
+    position: absolute;
+    top: 25px;
+    left: 200px;
+}
+.box_c {
+    position: absolute;
+    top: 400px;
+    left: 120px;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+}
+h2 {
+    color: white;
+    text-shadow: 2px 2px red;
+}
+.container {
+    position: relative;
+}
+footer {
+    position: absolute;
+    left: 400px;
+    bottom: 45px; 
+}
